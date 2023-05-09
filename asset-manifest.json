@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/offerum/static/css/main.c520ff51.css",
+    "main.js": "/offerum/static/js/main.200fe60d.js",
+    "static/js/787.10d2599c.chunk.js": "/offerum/static/js/787.10d2599c.chunk.js",
+    "static/media/man-mobile.svg": "/offerum/static/media/man-mobile.6f5b7743e1e0b9d34941.svg",
+    "static/media/man.svg": "/offerum/static/media/man.1420cb19c0fd246471a9.svg",
+    "static/media/smile-stars.svg": "/offerum/static/media/smile-stars.19901189dcf9bb79fa9c.svg",
+    "static/media/Inter-SemiBold.woff": "/offerum/static/media/Inter-SemiBold.7f6c3678e245486167d9.woff",
+    "static/media/Inter-Medium.woff": "/offerum/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Regular.woff": "/offerum/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Bold.woff2": "/offerum/static/media/Inter-Bold.c08e610806161507e8e3.woff2",
+    "static/media/Inter-SemiBold.woff2": "/offerum/static/media/Inter-SemiBold.90f5c90fdecd8895f496.woff2",
+    "static/media/Inter-Medium.woff2": "/offerum/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Regular.woff2": "/offerum/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/GTWalsheimPro-Medium.woff": "/offerum/static/media/GTWalsheimPro-Medium.56bd75a22ae9d40f0b48.woff",
+    "static/media/smile-dollar.svg": "/offerum/static/media/smile-dollar.fc7fbe9210b5c3403425.svg",
+    "static/media/smile-eyes.svg": "/offerum/static/media/smile-eyes.93233cd4ddcd5cf4f46a.svg",
+    "static/media/smile-glass.svg": "/offerum/static/media/smile-glass.2443b7ad2561bfe21f51.svg",
+    "static/media/GTWalsheimPro-Medium.woff2": "/offerum/static/media/GTWalsheimPro-Medium.ad6b035f63b8e9185266.woff2",
+    "static/media/close-button.svg": "/offerum/static/media/close-button.c15368561e08099c7e0b.svg",
+    "static/media/logo.svg": "/offerum/static/media/logo.873badb55f5bcbbae93f.svg",
+    "index.html": "/offerum/index.html",
+    "static/media/slide-button.svg": "/offerum/static/media/slide-button.158b8ed759e72b2a488b.svg",
+    "main.c520ff51.css.map": "/offerum/static/css/main.c520ff51.css.map",
+    "main.200fe60d.js.map": "/offerum/static/js/main.200fe60d.js.map",
+    "787.10d2599c.chunk.js.map": "/offerum/static/js/787.10d2599c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c520ff51.css",
+    "static/js/main.200fe60d.js"
+  ]
+}
