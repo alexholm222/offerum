@@ -1,0 +1,282 @@
+.main {
+  min-height: 100vh;
+  background-color: #1D2532;
+  position: relative;
+  overflow: hidden;
+
+  &__blur {
+    position: absolute;
+    left: 50px;
+    top: -150px;
+    width: 18.22vw;
+    height: 18.22vw;
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.35) 25.59%, rgba(255, 14, 222, 0.35) 100.44%);
+    filter: blur(86px);
+    transform: rotate(11.97deg);
+  }
+
+  &__content {
+    margin: 0 0 0 calc(100vw / 6);
+  }
+
+  &__image {
+    background-image: url(../../images/man.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 47vw;
+    height: 49vw;
+    position: absolute;
+    top: 175px;
+    right: calc(100vw / 6 - 120px);
+
+    &_mobile {
+      display: none;
+      background-image: url(../../images/man-mobile.svg);
+      background-size: cover;
+      width: 320px;
+      height: 320px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  &__title {
+    margin: 118px 0 28px 0;
+    max-width: 717px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 105%;
+    letter-spacing: -0.03em;
+    span {
+      font-weight: 700;  
+    }
+  }
+  
+  &__text {
+    max-width: 499px;
+    font-size: 23px;
+    line-height: 120%;
+    color: #CECECE;
+    margin: 0 0 67px 0;
+    padding: 0;
+  }
+
+  &__button {
+    width: 331px;
+    height: 66px;
+    padding: 0;
+    margin-bottom: 270px;
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    color: #1D2532;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    border: none;
+    background: linear-gradient(92.84deg, #1DD844 1.44%, #CBF62E 126.29%);
+    box-shadow: 1px 1px 15px  rgba(29, 216, 68, 0.7), -1px -1px 15px  rgba(29, 216, 68, 0.7);
+    border-radius: 20px;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    box-shadow: 3px 3px 15px  rgba(29, 216, 68, 1), -3px -3px 15px  rgba(29, 216, 68, 1);
+  }
+
+  &__button:active {
+    box-shadow: inset 0px 4px 9px rgba(0, 0, 0, 0.25), 1px 1px 15px  rgba(29, 216, 68, 0.7), -1px -1px 15px  rgba(29, 216, 68, 0.7);
+  }
+
+  &__button:disabled {
+    box-shadow: none;
+    color: rgba(36, 36, 36, 0.5);
+  }
+}
+
+@media screen and (max-width:1740px) {
+  .main {
+    &__content {
+      margin: 0 0 0 calc(100vw / 8);
+    }
+
+    &__image {
+      right: calc(100vw / 8 - 120px);
+      width: 57vw;
+      height: 49vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .main {
+
+    &__blur {
+      left: 40px;
+      top: -100px;
+    }
+
+    &__content {
+      margin: 0 0 0 calc(100vw / 10);
+    }
+
+    &__image {
+      right: calc(100vw / 10 - 120px);
+      width: 57vw;
+      height: 49vw;
+      top: 125px;
+    }
+
+    &__title {
+      font-size: 64px;
+      max-width: 620px;
+      margin-top: 88px;
+    }
+
+    &__button {
+      margin-bottom: 170px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1279px) {
+  .main {
+
+    &__blur {
+      left: 30px;
+      top: -70px;
+    }
+
+    &__content {
+      margin: 0 0 0 calc(100vw / 12);
+    }
+
+    &__image {
+      right: calc(100vw / 12 - 90px);
+      top: 135px;
+    }
+
+    &__title {
+      font-size: 54px;
+      max-width: 540px;
+      margin-top: 58px;
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-bottom: 47px;
+      max-width: 420px;
+    }
+
+    &__button {
+      margin-bottom: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .main {
+
+    &__blur {
+      top: -10px;
+    }
+
+    &__content {
+      margin: 0 0 0 calc(100vw / 20);
+    }
+
+    &__image {
+      right: calc(100vw / 25 - 40px);
+      top: 75px;
+    }
+
+    &__title {
+      font-size: 42px;
+      max-width: 420px;
+      margin-top: 40px;
+    }
+
+    &__text {
+      font-size: 14px;
+      margin-bottom: 47px;
+      max-width: 320px;
+    }
+
+    &__button {
+      width: 277px;
+      height: 51px;
+      font-size: 16px;
+      border-radius: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+
+    &__blur {
+      top: -10px;
+    }
+
+    &__content {
+      margin: 0;
+    }
+
+    &__container {
+      align-items: center;
+    }
+
+    &__image {
+      display: none;
+      &_mobile {
+        display: flex;
+        width: 425px;
+        height: 425px;
+      }
+    }
+
+    &__title {
+      font-size: 32px;
+      margin-top: 48px;
+      text-align: center;
+    }
+
+    &__text {
+      font-size: 22px;
+      text-align: center;
+      margin-top: 11px;
+      margin-bottom: 40px;
+      max-width: 280px;
+    }
+
+    &__button {
+      margin-bottom: 50px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+
+    &__image_mobile {
+      display: flex;
+      width: 320px;
+      height: 320px;
+    }
+    
+    &__title {
+      font-size: 25px;
+    }
+
+    &__text {
+      font-size: 18px;
+      max-width: 280px;
+    }
+  }
+}
