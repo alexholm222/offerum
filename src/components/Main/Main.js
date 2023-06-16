@@ -13,7 +13,8 @@ function Main({openModal, handleScroll}) {
           <div className='main__image_mobile'></div>
           <p className='main__text'>Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
           <button onClick={openModal} className='main__button'>Начать зарабатывать на NFT</button>
-        </div>
+        </div> 
+        <div></div>
       </div>
     </section>
   )
